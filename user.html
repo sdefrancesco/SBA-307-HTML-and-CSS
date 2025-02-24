@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>User Page</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="user.html">SD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="user.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="admin.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Admin
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="admin.html">Admin</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="resume.html">Contact Me</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-9">
+                <nav aria-label="breadcrumb" class="">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="user.html" style="opacity: .6" class="link-light link-underline link-underline-opacity-0">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page" style="color:white">Profile</li>
+                </ol>
+                </nav>
+            </div>
+            <div class="col-md-3">
+                <form class="d-flex mb-3" role="search" data-bs-theme="dark">
+                    <input class="form-control me-2" type="search" placeholder="Search Filter" aria-label="Search">
+                  </form>
+                
+            </div>
+        </div>
+
+
+    
+          <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron mb-5 bg-white p-5 rounded" style="background-image:url('images/photo2.jpg'); background-size:cover; background-position:center; background-attachment:fixed">
+                    <div class="avatar mb-3">
+                        <img src="images/photo4.jpg" alt="" width="100%">
+                    </div>
+                    <h1 class="display-2 text-white">
+                        sebastian defrancesco
+                    </h1>
+                    <p class='text-white' id="subheading">
+                        sdefrancesco37@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3 shadow-lg rounded mb-3 grey" data-bs-theme="dark">
+                    <div class="card-body">
+                        <h6 class="mb-2">
+                            Details
+                        </h6>
+                        <small>
+                            <ul class='color-grey list-none'>
+                                <li>Manhattan, Ny</li>
+                                <li>917 477 9234</li>
+                            </ul>
+                        </small>
+                        <br>
+                        <h6 class="mb-2">Links</h6>
+                        <ul class='color-grey list-none'>
+                            <li>
+                                <a href="#" class="link-underline link-underline-opacity-0">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-underline link-underline-opacity-0">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-underline link-underline-opacity-0">
+                                    GitHub
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-underline link-underline-opacity-0">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-underline link-underline-opacity-0">
+                                    Pintrest
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-underline link-underline-opacity-0">
+                                    Dribble
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="p-3 card" data-bs-theme="dark">
+                    <div class="card-body">
+                        <h6>Photos</h6>
+                        <div class="image mb-2">
+                            <img src="images/photo4.jpg" width='100%' height='auto'alt="">
+                        </div>
+                        <div class="image mb-2">
+                            <img src="images/photo2.jpg" width='100%' height='auto'alt="">
+                        </div>
+                        <div class="image mb-2">
+                            <img src="images/photo3.jpg" width='100%' height='auto'alt="">
+                        </div>
+                        
+                        <a href="#" class="float-end">
+                            View All
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card p-3 shadow-lg" data-bs-theme="dark">
+                    <div class="card-body">
+                        <h6>About Me</h6>
+                        <small class="color-grey">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in natus eum expedita ipsa ullam blanditiis ipsum omnis error quaerat, possimus facere atque reprehenderit fugiat fuga, quos officia similique ab eveniet? Necessitatibus illum, omnis deserunt hic ipsum praesentium. Accusamus ab velit sit dolor nisi nostrum, totam perferendis fuga blanditiis corrupti.
+                        </small>
+                        <br>
+                        <br>
+                        <table class="table table-borderless">
+                            <thead>
+                              <tr>
+                                <th >Interests</th>
+                                <th >Hobbies</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Skateboarding</td>
+                                <td>Swimming</td>
+                              </tr>
+                              <tr>
+                                <td>Hiking</td>
+                                <td>Jogging</td>
+                              </tr>
+                              <tr>
+                                <td scope="row">Drones</td>
+                                <td colspan="2">Model Airplane Building</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+                <br>
+                <div class="card p-4 shadow-lg" data-bs-theme="dark">
+                    <div class="card-body">
+                        <h6 class="mb-4">
+                            Experience
+                        </h6>
+                        <div class="mb-4">
+                            <h5>Starbucks Barista</h5>
+                            <small class="color-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus culpa velit reiciendis ipsam quia. Voluptate non dolorem blanditiis accusantium saepe illum rem exercitationem sunt corrupti, a tempore dolore facilis recusandae mollitia dignissimos eligendi perferendis ducimus alias quae? Architecto, voluptate.</small>
+                        </div>
+                        <div class="mb-4">
+                            <h5>SpaceX Engineer</h5>
+                            <small class="color-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione inventore consequatur repudiandae. Voluptatum beatae sequi, quis qui numquam, ullam aspernatur possimus culpa iusto excepturi, modi commodi obcaecati. Neque voluptas voluptate, fugit quod nihil reiciendis est optio culpa voluptatem? Deserunt, optio?</small>
+
+                        </div>
+                        <div class="mb-4">
+                            <h5>Tesla Robot Builder</h5>
+                            <small class="color-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis modi vero perferendis molestias ratione laborum! Optio dolores enim perferendis non sint alias possimus. Adipisci distinctio ex deserunt nihil suscipit, assumenda, corrupti molestiae laboriosam, fugit doloremque unde dolorem nostrum quibusdam.</small>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
